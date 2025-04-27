@@ -297,7 +297,7 @@ padding : 50px 0;
   <option value="TRIPURA">TRIPURA</option>
   <option value="UTTARAKHAND">UTTARAKHAND</option>
   <option value="WEST BANGAL">WEST BANGAL</option>
-  <option value="Uttar Pradesh">Uttar Pradesh</option>
+  <option value="Uttar Pradesh">UTTAR PRADESH</option>
  </select></td>
               </tr>
               <tr>
@@ -305,11 +305,7 @@ padding : 50px 0;
                 <td><span id="Label14">District / जिला&nbsp;<span class="style8">*</span></span></td>
                 <td><div id="UpdatePanel9">
                   
-                      <select name="city" id="dis" onchange="setCities();" required="" style="width:368px;">
-                                         
-                                   
-                       
-                      </select>
+      <select name="city" id="dis" onchange="setCities();" required="" style="width:368px;"></select>
                      </div></td>
               </tr>
               <tr>
@@ -385,7 +381,7 @@ padding : 50px 0;
   <option value="TRIPURA">TRIPURA</option>
   <option value="UTTARAKHAND">UTTARAKHAND</option>
   <option value="WEST BANGAL">WEST BANGAL</option>
-  <option value="Uttar Pradesh">Uttar Pradesh</option>
+  <option value="Uttar Pradesh">UTTAR PRADESH</option>
 		</select>                            </td>
 	</tr>
               <tr id="TrAccCentre" class="gdalternate1">
@@ -395,7 +391,7 @@ padding : 50px 0;
 <td align="left" valign="top">
                                 <div id="UpdatePanel1">
 			
-                                        <select name="DdlAccCentre" id="DdlAccCentre" onchange="this.form.submit()" tabindex="31" class="ddlNormal" style="width:368px;" required="">
+                                        <select name="DdlAccCentre" id="DdlAccCentre" onchange="findCenters()" tabindex="31" class="ddlNormal" style="width:368px;" required="">
                                         
                                                            <option value="">Select District</option>
                    				
@@ -427,7 +423,7 @@ padding : 50px 0;
                                 <span id="Label12" class="lblNormal">Examination Location 1 / परीक्षा केंद्र 1<font color="RED">*</font></span>                            </td>
 		<td align="left" valign="top">
                                 <div id="UpdatePanel4">
-                                                                  <select name="DdlExamCentre1" style="width:368px;" required="">
+                                                                  <select name="DdlExamCentre1" id="DdlExamCentre1" style="width:368px;" required="">
                                   
                                  
             
@@ -452,7 +448,7 @@ padding : 50px 0;
               <tr>
                 <td align="left" valign="top">7.2</td>
                 <td align="left" valign="top"><span id="lblphoto">Upload Photo / फोटो अपलोड&nbsp;<span class="style8">*</span></span></td>
-                <td align="left" valign="top"><input type="file" id="file" name="files[]" multiple="multiple" accept="image/*" required="">
+                <td align="left" valign="top"><input type="file" id="file" name="photo[]" multiple="multiple" accept="image/*" required="">
                   &nbsp;
                   <br>
                   (JPG,JPEG,GIF,PNG image with size upto 50 KB)</td>
@@ -460,7 +456,7 @@ padding : 50px 0;
               <tr>
                 <td align="left" valign="top">7.3</td>
                 <td align="left" valign="top"><span id="lblsign">Upload Signature / हस्ताक्षर अपलोड&nbsp;<span class="style8">*</span></span></td>
-                <td align="left" valign="top"><input type="file" id="file" name="files[]" multiple="multiple" accept="image/*" required="">
+                <td align="left" valign="top"><input type="file" id="file" name="signature[]" multiple="multiple" accept="image/*" required="">
                   &nbsp;
                   <br>
                   (JPG,JPEG,GIF,PNG image with size upto 50 KB)</td>
@@ -468,7 +464,7 @@ padding : 50px 0;
               <tr>
                 <td align="left" valign="top">7.4</td>
                 <td align="left" valign="top"><span id="lblThumb">Upload Left Hand Thumb Impression / बांए हाथ के अंगूठे का निशान अपलोड<span class="style8">*</span></span></td>
-                <td align="left" valign="top"><input type="file" id="file" name="files[]" multiple="multiple" accept="image/*" required="">
+                <td align="left" valign="top"><input type="file" id="file" name="thumb[]" multiple="multiple" accept="image/*" required="">
                   &nbsp;
                   <br>
                   (JPG,JPEG,GIF,PNG image with size upto 50 KB)</td>
@@ -503,6 +499,7 @@ padding : 50px 0;
 
 </section>
 
+ 
 
 <script type="text/javascript">
 
@@ -561,7 +558,6 @@ cities['JAMMU AND KASHMIR']['LADAKH']       = new Array('KARGIL','LEH');
 function setStates() {
  cntrySel = document.getElementById('state');
  stateList = states[cntrySel.value];
- console.log("ffvvf",'dis',cntrySel.value, stateList, stateList)
  changeSelect('dis', stateList, stateList);
  setCities();
 }
@@ -569,11 +565,21 @@ function setStates() {
 function setStatesAcc() {
  cntrySel = document.getElementById('DdlAccState');
  stateList = states[cntrySel.value];
- console.log("ffvvf",'dis',cntrySel.value, stateList, stateList)
- changeSelect('dis', stateList, stateList);
- setCities();
+ changeSelect('DdlAccCentre', stateList, stateList);
+//  setCitiesAcc();
+ findCenters('DdlExamCentre1')
 }
+
+
  
+
+function setCitiesAcc111() {
+  cntrySel = document.getElementById('DdlAccState');
+  stateSel = document.getElementById('DdlAccCentre');
+  cityList = cities[cntrySel.value][stateSel.value];
+  console.log(cntrySel,stateSel,"dddd");
+  changeSelectAcc('DdlExamCentre1', cityList, cityList);
+}
 
 function setCities() {
   cntrySel = document.getElementById('state');
@@ -582,8 +588,7 @@ function setCities() {
   changeSelect('city', cityList, cityList);
 }
 
-function changeSelect(fieldID, newOptions, newValues) {
-  console.log(fieldID, newOptions, newValues,"fff");
+function changeSelectAcc(fieldID, newOptions, newValues) {
   selectField = document.getElementById(fieldID);
   selectField.options.length = 0;
   for (i=0; i<newOptions.length; i++) {
@@ -591,6 +596,15 @@ function changeSelect(fieldID, newOptions, newValues) {
   }
 }
 
+function changeSelect(fieldID, newOptions, newValues) {
+  selectField = document.getElementById(fieldID);
+  selectField.options.length = 0;
+  for (i=0; i<newOptions.length; i++) {
+    selectField.options[selectField.length] = new Option(newOptions[i], newValues[i]);
+  }
+}
+
+ 
 function addLoadEvent(func) {
   var oldonload = window.onload;
   if (typeof window.onload != 'function') {
@@ -608,6 +622,47 @@ function addLoadEvent(func) {
 addLoadEvent(function() {
   setStates();
 });
+
+
+function findCenters(fieldID) {
+  fetch('centers.json')
+    .then(response => response.json())
+    .then(data => {
+      const selectField = document.getElementById(fieldID);
+      selectField.options.length = 0; // Pehle saare options clear kar do
+      
+      data.forEach(center => {
+        const option = new Option(center.text, center.value); // name dikhega, id value hogi
+        selectField.add(option);
+      });
+    })
+    .catch(error => console.error('Error loading JSON:', error));
+}
+
+function FileValid(){
+  let valid = true;
+  $('input[type="file"]').each(function() {
+    let file = this.files[0];
+    if (file) {
+      // Check size (50 KB = 51200 bytes)
+      if (file.size > 51200) {
+        alert('Each file must be under 50 KB!');
+        valid = false;
+        return false;
+      }
+      // Check type
+      if (!['image/jpeg', 'image/jpg', 'image/png', 'image/gif'].includes(file.type)) {
+        alert('Only JPG, JPEG, PNG, GIF images are allowed!');
+        valid = false;
+        return false;
+      }
+    }
+  });
+}
+
+
+
+
 </script>
 
 </body></html>

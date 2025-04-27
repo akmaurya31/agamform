@@ -1,180 +1,56 @@
-<select name="DdlExamCentre1" style="width:368px;" required="">
-                                  
-                                 
-            
-
-                  &nbsp;			
-                   
-				
-                
-                			
- 
- 	<option selected="selected" value="168">Moradabad (UPMOR001) - PANDIT DEEN DAYAL UPADHYAY SANSTHAN - anusinghdiwakar</option>
-				
-					<option selected="selected" value="163">AmbedkarNagar (UPAMB007) - ADARSH MANTESHRI SCHOOL</option>
-				
-					<option selected="selected" value="160">Lucknow (UPLUC001) - Jeevan Rashmi welfare Society</option>
-				
-					<option selected="selected" value="158">Fatehpur (UPFAT001) - ONLINESOLUTIONPOINT</option>
-				
-					<option selected="selected" value="155">Pratapgarh (UPPRA001) - ADARSH SHIKSHA NIKETAN SAMITI</option>
-				
-					<option selected="selected" value="148">Ambedkar Nagar (UPAMB001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN </option>
-				
-					<option selected="selected" value="256">Prayagraj (UPPRA001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - PRAYAGRAJ</option>
-				
-					<option selected="selected" value="254">Shrawasti (UPSHR001) - PANDIT DEEN DAYALUPADHYAY YOGA SANSTHAN - SHRAWASTI</option>
-				
-					<option selected="selected" value="255">Hardoi (UPHAR001) - PANDIT DEEN DAYAL UPDHYAY YOGA SANSTHAN - HARDOI</option>
-				
-					<option selected="selected" value="253">Lakheempur (UPLAK001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN U.P - LAKHEEMPUR KHEERI</option>
-				
-					<option selected="selected" value="252">Auraiya (UPAUR0-01) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN U.P AURAIYA - AURAIYA </option>
-				
-					<option selected="selected" value="250">Etawah (UPETA001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN UP ETAWAH - ETAWAH</option>
-				
-					<option selected="selected" value="251">KanpurDehat (UPKAND001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - KANPURDEHAT</option>
-				
-					<option selected="selected" value="212">Sultanpur (UPSUL007) - HARIOM INSTITUTE OF COMPUTER SCIENCE - hariom8052@gmail.com</option>
-				
-					<option selected="selected" value="249">Agra (UPAGR001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - AGRA</option>
-				
-					<option selected="selected" value="215">Ambedkar Nagar (UPAMB013) - JANTA INTER COLLEGE</option>
-				
-					<option selected="selected" value="217">Ambedkar Nagar (UPAMB015) - PT.RAM PRATAP PANDEY PUBLIC SCHOOL - info@prpps.co.in</option>
-				
-					<option selected="selected" value="219">Ambedkar Nagar (UPAMB016) - nanducomputar institute - nandukumar46@gmail.com</option>
-				
-					<option selected="selected" value="222">Mirzapur UPMIR001) - MAA VINDHYAVASINI YOGA SANSTHAN - MVVYS</option>
-				
-					<option selected="selected" value="226">Pratapgarh (UPPRA007) - KAMLA GOVIND PRASAD SHIKHSA SAMITI - KGPSS</option>
-				
-					<option selected="selected" value="227">Ambedkar Nagar (UPAMB019) - BABA JAGAR DEV G YOGA SANSTHAN - BABA</option>
-				
-					<option selected="selected" value="228">Ayodhya (UPAYO001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - AYODHYA</option>
-				
-					<option selected="selected" value="247">UNNAO (UPUNN001) - PANDIT DEEN DAYAL UPADHAYAY YOGA SANSTHAN - UNNAO</option>
-				
-					<option selected="selected" value="230">Lucknow (UPLUC007) - Shiker Shiksha Sewa Samiti - SHIKERSSS</option>
-				
-					<option selected="selected" value="231">Sultanpur (UPSUL008) - PANDIT DEEN DAYAL UPADHAYAY YOGA SANSTHAN SULTANPUR - sunil</option>
-				
-					<option selected="selected" value="232">Ambedkar Nagar (UPAMB020) - RASTRIYA VIKAS AVAM SAMAJ KALYAN SEWA SANSTHAN - RVSK</option>
-				
-					<option selected="selected" value="233">Azamgarh (UPAZA006) - inter colloge chewata azamgarh - varunsingh@gmail.com</option>
-				
-					<option selected="selected" value="234">Etah (UPETA001) - SHIKHAR SHIKHA SEWA SAMITI - SHIKERSS2</option>
-				
-					<option selected="selected" value="235">Bijnor (UPBIJ001) - KRIPAL YOGA SANSTHAN BIJNOR - KAPIL</option>
-				
-					<option selected="selected" value="236">Lucknow (UPLUC008) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN U.P.  - LUCKNOW</option>
-				
-					<option selected="selected" value="237">Barabanki (UPBAR003) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN U.P. BARABANKI - BARABANKI</option>
-				
-					<option selected="selected" value="238">Atah (UPATA001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN U.P. ATAH - ATAH</option>
-				
-					<option selected="selected" value="287">Kannauj (UPKANJ001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - KANNAUJ</option>
-				
-					<option selected="selected" value="289">Bulandshahr (UPBUL001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - BULANDSHAHR</option>
-				
-					<option selected="selected" value="241">Amroha (UPAMR001) - GURUKUL COACHING INSTITUTE AMORHA - MUKESH</option>
-				
-					<option selected="selected" value="242">Gonda (UPGON001) - PANDIT DEEN DAYAL UPDHYAY YOGA SANSTHAN GONDA U.P. - GONDA</option>
-				
-					<option selected="selected" value="243">Amethi (UPAME001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN AMETHI - AMARJEET</option>
-				
-					<option selected="selected" value="244">Raebareli (UPRAE003) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN U.P. - RAEBARELI</option>
-				
-					<option selected="selected" value="245">Sitapur (UPSIT001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN U.P. - SITAPUR</option>
-				
-					<option selected="selected" value="246">KanpurNagar (UPKAN001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN KANPUR NAGAR - KANPURNAGAR</option>
-				
-					<option selected="selected" value="257">Hardoi (UPHAR002) - PANDIT DEEN DAYAL UPDHYAY YOGA SANSTHAN - PHOOLCHANDRA</option>
-				
-					<option selected="selected" value="258">Kaushambi (UPKAU001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - KAUSHAMBI</option>
-				
-					<option selected="selected" value="259">Shahjahanpur (UPSAH001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - SHAHJAHANPUR</option>
-				
-					<option selected="selected" value="260">Bareilly (UPBARE001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - BAREILLY</option>
-				
-					<option selected="selected" value="261">Banda (UPBAN001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - BANDA</option>
-				
-					<option selected="selected" value="262">Pilibhit (UPPIL001) - PANDIT DEEN DAYAL UPADHYAY SANSTHAN - PILIBHIT</option>
-				
-					<option selected="selected" value="263">Ghazipur (UPGHA001) - PANDIT DEEN DAYAL UPDHYAY YOGA SANSTHAN - GHAZIPUR</option>
-				
-					<option selected="selected" value="264">Badaun (UPBAD001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - BADAUN</option>
-				
-					<option selected="selected" value="265">Sonbhadra (UPSON001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - SONBHADRA</option>
-				
-					<option selected="selected" value="266">Jhansi (UPJHA001) - PANDIT DEEN DAYAL UPDHYAY YOGA SANSTHAN - JHANSI</option>
-				
-					<option selected="selected" value="267">Mahoba (UPMAH001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - MAHOBA</option>
-				
-					<option selected="selected" value="268">Varanasi (UPVAR001) - PANDIT DEEN DAYAL UPADHAYAY YOGA SANSTHAN - VARANSI</option>
-				
-					<option selected="selected" value="271">Rampur (UPRAM001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - RAMPUR</option>
-				
-					<option selected="selected" value="269">Jalaun (UPJAL001) - PANDIT DEEN DAYAL UPDHYAY YOGA SANSTHAN - JALAUN</option>
-				
-					<option selected="selected" value="270">Hameerpur (UPHAM001) - PANDIT DEEN DAYAL UPDHYAY YOGA SANSTHAN - HAMEERPUR</option>
-				
-					<option selected="selected" value="274">Kushinagar (UPKUS001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - KUSHINAGAR</option>
-				
-					<option selected="selected" value="275">Fatehpur (UPFAT002) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - FATEHPUR</option>
-				
-					<option selected="selected" value="276">Meerut (UPMEE001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - MEERUT</option>
-				
-					<option selected="selected" value="277">Mau (UPMAU001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - MAU</option>
-				
-					<option selected="selected" value="278">Saharanpur (UPSAH001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - SAHARANPUR</option>
-				
-					<option selected="selected" value="279">Maharajganj (UPMAH001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN -MAHARAJGANJ</option>
-				
-					<option selected="selected" value="280">Moradabad (UPMOR002) - PANDIT DEEN DAYAL UPADHYAY SANSTHAN - MORADABAD</option>
-				
-					<option selected="selected" value="281">Deoria (UPDEO001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - DEORIA</option>
-				
-					<option selected="selected" value="282">Sambhal (UPSAM001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN U.P.SAMBHAL - SAMBHAL</option>
-				
-					<option selected="selected" value="283">Gorakhpur (UPGOR001) - PANDIT DEEN DAYAL UPDHYAY YOGA SANSTHAN - GORAKHPUR</option>
-				
-					<option selected="selected" value="284">Muzaffarnagar (UPMUZ001) - PANDIT DEEN DAYAL UPADHYAY SANSTHAN - MUZAFFARNAGAR</option>
-				
-					<option selected="selected" value="285">Aligarh (UPALI001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - ALIGARH</option>
-				
-					<option selected="selected" value="286">Bijnor (UPBIJ002) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - BIJNOR</option>
-				
-					<option selected="selected" value="288">Lalitpur (UPLAL001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - LALITPUR</option>
-				
-					<option selected="selected" value="290">Hapur (UPHAP001) - PANDIT DEEN DAYAL UPDHYAY YOGA SANSTHAN - HAPUR</option>
-				
-					<option selected="selected" value="291">Shamli (UPSHA001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - SHAMLI</option>
-				
-					<option selected="selected" value="292">Ballia (UPBAL001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - BALLIA</option>
-				
-					<option selected="selected" value="293">Sant Kabir Nagar (UPSAN001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - SANTKABIRNAGAR</option>
-				
-					<option selected="selected" value="294">Amroha (UPAMR002) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - AMROHA</option>
-				
-					<option selected="selected" value="295">Mirzapur (UPMIR002) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - MIRZAPUR</option>
-				
-					<option selected="selected" value="296">Farrukhabad (UPFAR001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - FARRUKHABAD</option>
-				
-					<option selected="selected" value="297">Mathura (UPMAT001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - MATHURA</option>
-				
-					<option selected="selected" value="302">Mainpuri (UPMAI002) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - MAINPURI2</option>
-				
-					<option selected="selected" value="300">Firozabad (UPFIR001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - FIROZABAD</option>
-				
-					<option selected="selected" value="301">Mainpuri (UPMAI001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - MAINPURI</option>
-				
-					<option selected="selected" value="303">Hathras (UPHAT001) - PANDIT DEEN DAYAL UPDHYAY YOGA SANSTHAN - HATHRAS</option>
-				
-					<option selected="selected" value="304">Baghpat (UPBAG001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - BAGHPAT</option>
-				
-					<option selected="selected" value="305">Lucknow (UPLUC010) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - LUCKNOW</option>
-				
-					<option selected="selected" value="306">Baghpat (UPBAG002) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - BAGHPATRI</option>
-				
-							</select>
+[
+    { "value": "168", "text": "Moradabad (UPMOR001) - PANDIT DEEN DAYAL UPADHYAY SANSTHAN - anusinghdiwakar" },
+    { "value": "163", "text": "AmbedkarNagar (UPAMB007) - ADARSH MANTESHRI SCHOOL" },
+    { "value": "160", "text": "Lucknow (UPLUC001) - Jeevan Rashmi welfare Society" },
+    { "value": "158", "text": "Fatehpur (UPFAT001) - ONLINESOLUTIONPOINT" },
+    { "value": "155", "text": "Pratapgarh (UPPRA001) - ADARSH SHIKSHA NIKETAN SAMITI" },
+    { "value": "148", "text": "Ambedkar Nagar (UPAMB001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN" },
+    { "value": "256", "text": "Prayagraj (UPPRA001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - PRAYAGRAJ" },
+    { "value": "254", "text": "Shrawasti (UPSHR001) - PANDIT DEEN DAYALUPADHYAY YOGA SANSTHAN - SHRAWASTI" },
+    { "value": "255", "text": "Hardoi (UPHAR001) - PANDIT DEEN DAYAL UPDHYAY YOGA SANSTHAN - HARDOI" },
+    { "value": "253", "text": "Lakheempur (UPLAK001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN U.P - LAKHEEMPUR KHEERI" },
+    { "value": "252", "text": "Auraiya (UPAUR0-01) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN U.P AURAIYA - AURAIYA" },
+    { "value": "250", "text": "Etawah (UPETA001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN UP ETAWAH - ETAWAH" },
+    { "value": "251", "text": "KanpurDehat (UPKAND001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - KANPURDEHAT" },
+    { "value": "212", "text": "Sultanpur (UPSUL007) - HARIOM INSTITUTE OF COMPUTER SCIENCE - hariom8052@gmail.com" },
+    { "value": "249", "text": "Agra (UPAGR001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - AGRA" },
+    { "value": "215", "text": "Ambedkar Nagar (UPAMB013) - JANTA INTER COLLEGE" },
+    { "value": "217", "text": "Ambedkar Nagar (UPAMB015) - PT.RAM PRATAP PANDEY PUBLIC SCHOOL - info@prpps.co.in" },
+    { "value": "219", "text": "Ambedkar Nagar (UPAMB016) - nanducomputar institute - nandukumar46@gmail.com" },
+    { "value": "222", "text": "Mirzapur (UPMIR001) - MAA VINDHYAVASINI YOGA SANSTHAN - MVVYS" },
+    { "value": "226", "text": "Pratapgarh (UPPRA007) - KAMLA GOVIND PRASAD SHIKHSA SAMITI - KGPSS" },
+    { "value": "227", "text": "Ambedkar Nagar (UPAMB019) - BABA JAGAR DEV G YOGA SANSTHAN - BABA" },
+    { "value": "228", "text": "Ayodhya (UPAYO001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - AYODHYA" },
+    { "value": "247", "text": "UNNAO (UPUNN001) - PANDIT DEEN DAYAL UPADHAYAY YOGA SANSTHAN - UNNAO" },
+    { "value": "230", "text": "Lucknow (UPLUC007) - Shiker Shiksha Sewa Samiti - SHIKERSSS" },
+    { "value": "231", "text": "Sultanpur (UPSUL008) - PANDIT DEEN DAYAL UPADHAYAY YOGA SANSTHAN SULTANPUR - sunil" },
+    { "value": "232", "text": "Ambedkar Nagar (UPAMB020) - RASTRIYA VIKAS AVAM SAMAJ KALYAN SEWA SANSTHAN - RVSK" },
+    { "value": "233", "text": "Azamgarh (UPAZA006) - inter colloge chewata azamgarh - varunsingh@gmail.com" },
+    { "value": "234", "text": "Etah (UPETA001) - SHIKHAR SHIKHA SEWA SAMITI - SHIKERSS2" },
+    { "value": "235", "text": "Bijnor (UPBIJ001) - KRIPAL YOGA SANSTHAN BIJNOR - KAPIL" },
+    { "value": "236", "text": "Lucknow (UPLUC008) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN U.P. - LUCKNOW" },
+    { "value": "237", "text": "Barabanki (UPBAR003) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN U.P. BARABANKI - BARABANKI" },
+    { "value": "238", "text": "Atah (UPATA001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN U.P. ATAH - ATAH" },
+    { "value": "287", "text": "Kannauj (UPKANJ001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - KANNAUJ" },
+    { "value": "289", "text": "Bulandshahr (UPBUL001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - BULANDSHAHR" },
+    { "value": "241", "text": "Amroha (UPAMR001) - GURUKUL COACHING INSTITUTE AMORHA - MUKESH" },
+    { "value": "242", "text": "Gonda (UPGON001) - PANDIT DEEN DAYAL UPDHYAY YOGA SANSTHAN GONDA U.P. - GONDA" },
+    { "value": "243", "text": "Amethi (UPAME001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN AMETHI - AMARJEET" },
+    { "value": "244", "text": "Raebareli (UPRAE003) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN U.P. - RAEBARELI" },
+    { "value": "245", "text": "Sitapur (UPSIT001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN U.P. - SITAPUR" },
+    { "value": "246", "text": "KanpurNagar (UPKAN001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN KANPUR NAGAR - KANPURNAGAR" },
+    { "value": "257", "text": "Hardoi (UPHAR002) - PANDIT DEEN DAYAL UPDHYAY YOGA SANSTHAN - PHOOLCHANDRA" },
+    { "value": "258", "text": "Kaushambi (UPKAU001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - KAUSHAMBI" },
+    { "value": "259", "text": "Shahjahanpur (UPSAH001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - SHAHJAHANPUR" },
+    { "value": "260", "text": "Bareilly (UPBARE001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - BAREILLY" },
+    { "value": "261", "text": "Banda (UPBAN001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - BANDA" },
+    { "value": "262", "text": "Pilibhit (UPPIL001) - PANDIT DEEN DAYAL UPADHYAY SANSTHAN - PILIBHIT" },
+    { "value": "263", "text": "Ghazipur (UPGHA001) - PANDIT DEEN DAYAL UPDHYAY YOGA SANSTHAN - GHAZIPUR" },
+    { "value": "264", "text": "Badaun (UPBAD001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - BADAUN" },
+    { "value": "265", "text": "Sonbhadra (UPSON001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - SONBHADRA" },
+    { "value": "266", "text": "Jhansi (UPJHA001) - PANDIT DEEN DAYAL UPDHYAY YOGA SANSTHAN - JHANSI" },
+    { "value": "267", "text": "Mahoba (UPMAH001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - MAHOBA" },
+    { "value": "268", "text": "Varanasi (UPVAR001) - PANDIT DEEN DAYAL UPADHAYAY YOGA SANSTHAN - VARANSI" },
+    { "value": "271", "text": "Rampur (UPRAM001) - PANDIT DEEN DAYAL UPADHYAY YOGA SANSTHAN - RAMPUR" }
+  ]
+  
