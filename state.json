@@ -1,0 +1,150 @@
+<select name="DdlAccCentre" id="DdlAccCentre" onchange="this.form.submit()" tabindex="31" class="ddlNormal" style="width:368px;" required="">
+                                        
+                                                      <option selected="selected" value="EAST DELHI">EAST DELHI</option>
+
+                  &nbsp;							
+                			
+ 
+ 	<option value="AGRA">AGRA</option>
+				
+					<option value="ALIGARH">ALIGARH</option>
+				
+					<option value="ALLAHABAD">ALLAHABAD</option>
+				
+					<option value="AMBEDKAR NAGAR">AMBEDKAR NAGAR</option>
+				
+					<option value="AURAIYA">AURAIYA</option>
+				
+					<option value="AZAMGARH">AZAMGARH</option>
+				
+					<option value="BADAUN">BADAUN</option>
+				
+					<option value="BAGPAT">BAGPAT</option>
+				
+					<option value="BAHRAICH">BAHRAICH</option>
+				
+					<option value="BALLIA">BALLIA</option>
+				
+					<option value="BALRAMPUR">BALRAMPUR</option>
+				
+					<option value="BANDA">BANDA</option>
+				
+					<option value="BARABANKI">BARABANKI</option>
+				
+					<option value="BAREILLY">BAREILLY</option>
+				
+					<option value="BASTI">BASTI</option>
+				
+					<option value="BIJNOR">BIJNOR</option>
+				
+					<option value="BULANDSHAHR">BULANDSHAHR</option>
+				
+					<option value="CHANDAULI">CHANDAULI</option>
+				
+					<option value="CHITRAKOOT">CHITRAKOOT</option>
+				
+					<option value="DEORIA">DEORIA</option>
+				
+					<option value="ETAH">ETAH</option>
+				
+					<option value="ETAWAH">ETAWAH</option>
+				
+					<option value="FAIZABAD">FAIZABAD</option>
+				
+					<option value="FARRUKHABAD">FARRUKHABAD</option>
+				
+					<option value="FATEHPUR">FATEHPUR</option>
+				
+					<option value="FIROZABAD">FIROZABAD</option>
+				
+					<option value="GAUTAM BUDDHA NAGAR">GAUTAM BUDDHA NAGAR</option>
+				
+					<option value="GHAZIABAD">GHAZIABAD</option>
+				
+					<option value="GHAZIPUR">GHAZIPUR</option>
+				
+					<option value="GONDA">GONDA</option>
+				
+					<option value="GORKAKHPUR">GORKAKHPUR</option>
+				
+					<option value="HAMIRPUR">HAMIRPUR</option>
+				
+					<option value="HARDOI">HARDOI</option>
+				
+					<option value="JALAUN">JALAUN</option>
+				
+					<option value="JAUNPUR DISTRICT">JAUNPUR DISTRICT</option>
+				
+					<option value="JHANSI">JHANSI</option>
+				
+					<option value="JYOTIBA PHULE NAGAR">JYOTIBA PHULE NAGAR</option>
+				
+					<option value="KANNAUJ">KANNAUJ</option>
+				
+					<option value="KANPUR DEHAT">KANPUR DEHAT</option>
+				
+					<option value="KANPUR NAGAR">KANPUR NAGAR</option>
+				
+					<option value="KANSHIRAM NAGAR">KANSHIRAM NAGAR</option>
+				
+					<option value="KAUSHAMBI">KAUSHAMBI</option>
+				
+					<option value="KUSHINAGAR">KUSHINAGAR</option>
+				
+					<option value="LAKHIMPUR KHERI">LAKHIMPUR KHERI</option>
+				
+					<option value="LALITPUR">LALITPUR</option>
+				
+					<option value="LUCKNOW">LUCKNOW</option>
+				
+					<option value="MAHAMAYA NAGAR">MAHAMAYA NAGAR</option>
+				
+					<option value="MAHARAJGANJ">MAHARAJGANJ</option>
+				
+					<option value="MAHOBA">MAHOBA</option>
+				
+					<option value="MAINPURI">MAINPURI</option>
+				
+					<option value="MATHURA">MATHURA</option>
+				
+					<option value="MAU">MAU</option>
+				
+					<option value="MEERUT">MEERUT</option>
+				
+					<option value="MIRZAPUR">MIRZAPUR</option>
+				
+					<option value="MORADABAD">MORADABAD</option>
+				
+					<option value="MUZAFFARNAGAR">MUZAFFARNAGAR</option>
+				
+					<option value="PILIBHIT">PILIBHIT</option>
+				
+					<option value="PRATAPGARH">PRATAPGARH</option>
+				
+					<option value="RAE BARELI">RAE BARELI</option>
+				
+					<option value="RAMPUR">RAMPUR</option>
+				
+					<option value="SAHARANPUR">SAHARANPUR</option>
+				
+					<option value="SANT KABIR NAGAR">SANT KABIR NAGAR</option>
+				
+					<option value="SANT RAVIDAS NAGAR">SANT RAVIDAS NAGAR</option>
+				
+					<option value="SHAHJAHANPUR">SHAHJAHANPUR</option>
+				
+					<option value="SHRAVASTI">SHRAVASTI</option>
+				
+					<option value="SIDDHARTHNAGAR">SIDDHARTHNAGAR</option>
+				
+					<option value="SITAPUR">SITAPUR</option>
+				
+					<option value="SONBHADRA">SONBHADRA</option>
+				
+					<option value="SULTANPUR">SULTANPUR</option>
+				
+					<option value="UNNAO">UNNAO</option>
+				
+					<option value="VARANASI">VARANASI</option>
+				
+							</select>
