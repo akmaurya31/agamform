@@ -1,7 +1,7 @@
 <?php require_once('db_connection.php'); 
 if (isset($_GET['nextCid'])) {
     $nextCid = $_GET['nextCid'];
-    echo "Next CID is: " . htmlspecialchars($nextCid);
+    // echo "Next CID is: " . htmlspecialchars($nextCid);
 }
 $rs=(object)fetchRecordById($nextCid);
 
@@ -12,7 +12,7 @@ $rs=(object)fetchRecordById($nextCid);
 <html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 
-</head><body bgcolor="#FFFFFF">direct_students <style>
+</head><body bgcolor="#FFFFFF">  <style>
  body{ text-transform:uppercase}
  td{
  text-transform:uppercase
@@ -43,9 +43,15 @@ $rs=(object)fetchRecordById($nextCid);
     <td><table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
   <tbody>
     <tr>
-      <td align="center"><div style="font-size:14px; font-weight:bold"><strong>Examination Application Form:&nbsp;<span id="Lblhead">()</span></strong>
+      <td align=""><div style="font-size:14px; font-weight:bold"><strong>Examination Application Form:&nbsp;<span id="Lblhead"></span></strong>
+      <br/>
+      Course Cateogry : <?php echo $rs->course_category; ?>
+      <br/>
+        Name : <?php echo $rs->course_name; ?>
+      <br/>
+      Duration : <?php echo $rs->course_duration; ?>
       </div>
-           <form action="https://pddus.org/e_portal/Fran/PayUMoney_formadd_open.php" method="post" target="_blank">
+           <form action="" method="post" target="_blank">
         <input type="hidden" name="check_list[]" value="9013455483" style="height:30; width:30">
         <input name="user_name" type="hidden" value="direct_students">
         <input type="submit" name="submit" value="Pay Now" style="background-color:#FF0000; color:#FFFFFF; height:80px; width:400px; border:2px #000000 solid; font-size:44px">

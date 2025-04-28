@@ -1,0 +1,98 @@
+[
+    {
+      "category": "Yoga Courses",
+      "courses": [
+        { "short_name": "CCY", "course_name": "CERTIFICATE COURSE IN YOGA", "min_qualification": "10TH", "duration": "6 MONTH" },
+        { "short_name": "DYT", "course_name": "DIPLOMA IN YOGA THERAPY", "min_qualification": "10TH", "duration": "1 YEAR" },
+        { "short_name": "DYE", "course_name": "DIPLOMA IN YOGA EDUCATION", "min_qualification": "10TH", "duration": "1 YEAR" },
+        { "short_name": "DIN", "course_name": "DIPLOMA IN NATUROPATHY", "min_qualification": "10TH", "duration": "1 YEAR" },
+        { "short_name": "PGDY", "course_name": "PG. DIPLOMA IN YOGA", "min_qualification": "GRADUATION", "duration": "1 YEAR" },
+        { "short_name": "DYNE", "course_name": "DIPLOMA IN YOGA & NATUROPATHY EDUCATION", "min_qualification": "12TH", "duration": "1 YEAR" },
+        { "short_name": "DMTT", "course_name": "DIPLOMA IN MEDITATION TEACHER TRAINING", "min_qualification": "12TH", "duration": "1 YEAR" },
+        { "short_name": "ADYTT", "course_name": "ADVANCE DIPLOMA IN YOGA TEACHER TRAINING", "min_qualification": "12TH", "duration": "2 YEAR" },
+        { "short_name": "DYTT", "course_name": "DIPLOMA IN YOGA TEACHER TRAINING", "min_qualification": "12TH", "duration": "1 YEAR" }
+      ]
+    },
+    {
+      "category": "Teacher Training Courses",
+      "courses": [
+        { "short_name": "NTT", "course_name": "NURSERY TEACHER TRAINING", "min_qualification": "12TH", "duration": "2 YEAR" },
+        { "short_name": "CTT", "course_name": "COMPUTER TEACHER TRAINING", "min_qualification": "12TH", "duration": "1 YEAR" },
+        { "short_name": "PTT", "course_name": "DIPLOMA IN PRIMARY TEACHER TRAINING", "min_qualification": "12TH", "duration": "2 YEAR" },
+        { "short_name": "NPTT", "course_name": "NURSERY PRIMARY TEACHER TRAINING", "min_qualification": "12TH", "duration": "2 YEAR" }
+      ]
+    },
+    {
+      "category": "Computer Courses",
+      "courses": [
+        { "short_name": "BCC", "course_name": "BASIC COMPUTER COURSE", "min_qualification": "10TH", "duration": "3 MONTH" },
+        { "short_name": "CCA", "course_name": "CERTIFICATE IN COMPUTER APPLICATION", "min_qualification": "10TH", "duration": "3 MONTH" },
+        { "short_name": "DTP", "course_name": "DIPLOMA IN DESK TOP PUBLISHING", "min_qualification": "10TH", "duration": "6 MONTH" },
+        { "short_name": "DCH", "course_name": "DIPLOMA IN COMPUTER HARDWARE", "min_qualification": "10TH", "duration": "6 MONTH" },
+        { "short_name": "DCS", "course_name": "DIPLOMA IN COMPUTER SCIENCE", "min_qualification": "10TH", "duration": "6 MONTH" },
+        { "short_name": "DCN", "course_name": "DIPLOMA IN COMPUTER NETWORKING", "min_qualification": "10TH", "duration": "6 MONTH" },
+        { "short_name": "DFA", "course_name": "DIPLOMA IN FINANCIAL ACCOUNTING", "min_qualification": "12TH", "duration": "6 MONTH" },
+        { "short_name": "DCA", "course_name": "DIPLOMA IN COMPUTER APPLICATION", "min_qualification": "10TH", "duration": "6 MONTH" },
+        { "short_name": "DMA", "course_name": "DIPLOMA IN MULTIMEDIA & ANIMATION", "min_qualification": "12TH", "duration": "6 MONTH" },
+        { "short_name": "CCN", "course_name": "CERTIFICATE IN COMPUTER NETWORKING", "min_qualification": "10TH", "duration": "6 MONTH" },
+        { "short_name": "DIT", "course_name": "DIPLOMA IN INFORMATION TECHNOLOGY", "min_qualification": "10TH", "duration": "6 MONTH" },
+        { "short_name": "ADCH", "course_name": "ADVANCE DIPLOMA IN COMPUTER HARDWARE", "min_qualification": "12TH", "duration": "1 YEAR" },
+        { "short_name": "DSD", "course_name": "DIPLOMA IN SOFTWARE DEVELOPMENT", "min_qualification": "12TH", "duration": "6 MONTH" },
+        { "short_name": "DOMA", "course_name": "DIPLOMA IN OFFICE MANAGEMENT APPLICATION", "min_qualification": "12TH", "duration": "1 YEAR" },
+        { "short_name": "DST", "course_name": "DIPLOMA IN SOFTWARE TECHNOLOGY", "min_qualification": "10TH", "duration": "6 MONTH" },
+        { "short_name": "MDCA", "course_name": "MASTER DIPLOMA IN COMPUTER APPLICATION", "min_qualification": "12TH", "duration": "1 YEAR" },
+        { "short_name": "MDCIM", "course_name": "MASTER DIPLOMA IN COMPUTER INFORMATION & SYSTEM MANAGEMENT", "min_qualification": "GRADUATION", "duration": "18 MONTH" },
+        { "short_name": "MDIT", "course_name": "MASTER DIPLOMA IN INFORMATION TECHNOLOGY", "min_qualification": "GRADUATION", "duration": "18 MONTH" },
+        { "short_name": "DMOMSP", "course_name": "DIPLOMA IN MODERN OFFICE MANAGEMENT & SECRETARIAL PRACTICE", "min_qualification": "12TH", "duration": "18 MONTH" },
+        { "short_name": "ADCST", "course_name": "ADVANCE DIPLOMA IN COMPUTER SOFTWARE TECHNOLOGY", "min_qualification": "12TH", "duration": "18 MONTH" },
+        { "short_name": "ADHN", "course_name": "ADVANCE DIPLOMA IN HARDWARE & NETWORKING", "min_qualification": "12TH", "duration": "1 YEAR" },
+        { "short_name": "ADCS", "course_name": "ADVANCE DIPLOMA IN COMPUTER SCIENCE", "min_qualification": "12TH", "duration": "1 YEAR" },
+        { "short_name": "DCAD", "course_name": "DIPLOMA IN COMPUTER AIDED DESIGN", "min_qualification": "12TH", "duration": "1 YEAR" },
+        { "short_name": "ADFA", "course_name": "ADVANCE DIPLOMA IN FINANCIAL ACCOUNTING", "min_qualification": "12TH", "duration": "1 YEAR" },
+        { "short_name": "DIWD", "course_name": "DIPLOMA IN WEB DESIGNING", "min_qualification": "10TH", "duration": "1 YEAR" },
+        { "short_name": "ADCA", "course_name": "ADVANCE DIPLOMA IN COMPUTER APPLICATION", "min_qualification": "10TH", "duration": "1 YEAR" },
+        { "short_name": "DOIP", "course_name": "DIPLOMA IN AUTOMATED DATA PROCESSING", "min_qualification": "10TH", "duration": "1 YEAR" },
+        { "short_name": "ADSI", "course_name": "ADVANCE DIPLOMA IN SOFTWARE ENGINEERING", "min_qualification": "12TH", "duration": "1 YEAR" },
+        { "short_name": "ADC", "course_name": "ADVANCE DIPLOMA IN COMPUTER", "min_qualification": "10TH", "duration": "1 YEAR" },
+        { "short_name": "ADCP", "course_name": "ADVANCE DIPLOMA IN COMPUTER PROGRAMMING", "min_qualification": "12TH", "duration": "1 YEAR" },
+        { "short_name": "DICS", "course_name": "DIPLOMA IN COMPUTER SKILL", "min_qualification": "10TH", "duration": "1 YEAR" },
+        { "short_name": "DCTT", "course_name": "DIPLOMA IN COMPUTER TEACHER TRAINING", "min_qualification": "10TH", "duration": "1 YEAR" },
+        { "short_name": "DIP", "course_name": "DIPLOMA IN PROGRAMMING", "min_qualification": "10TH", "duration": "1 YEAR" },
+        { "short_name": "DIS", "course_name": "DIPLOMA IN INFORMATION SYSTEM", "min_qualification": "10TH", "duration": "1 YEAR" },
+        { "short_name": "PGDCWD", "course_name": "POST GRADUATE DIPLOMA IN COMPUTER WEB DESIGNING", "min_qualification": "GRADUATION", "duration": "1 YEAR" },
+        { "short_name": "PGDCA", "course_name": "POST GRADUATE DIPLOMA IN COMPUTER APPLICATION", "min_qualification": "GRADUATION", "duration": "1 YEAR" },
+        { "short_name": "ADIT", "course_name": "ADVANCE DIPLOMA IN INFORMATION TECHNOLOGY", "min_qualification": "12TH", "duration": "1 YEAR" }
+      ]
+    },
+    {
+      "category": "Vocational Courses",
+      "courses": [
+        { "short_name": "DPF", "course_name": "DIPLOMA IN POULTRY FARMING", "min_qualification": "10TH", "duration": "6 MONTH" },
+        { "short_name": "CFA", "course_name": "CERTIFICATE IN FINE ART", "min_qualification": "10TH", "duration": "6 MONTH" },
+        { "short_name": "CFSM", "course_name": "CERTIFICATE IN FIRE SAFETY MANAGEMENT", "min_qualification": "10TH", "duration": "6 MONTH" },
+        { "short_name": "DSLM", "course_name": "DIPLOMA IN SCHOOL LEADER AND MANAGEMENT", "min_qualification": "10TH", "duration": "1 YEAR" },
+        { "short_name": "ADLM", "course_name": "ADVANCE DIPLOMA IN LIBRARY MANAGEMENT", "min_qualification": "10TH", "duration": "1 YEAR" },
+        { "short_name": "DFA (Fine Art)", "course_name": "DIPLOMA IN FINE ART", "min_qualification": "10TH", "duration": "1 YEAR" },
+        { "short_name": "ADLS", "course_name": "ADVANCE DIPLOMA IN LAUNDRY SERVICES", "min_qualification": "10TH", "duration": "1 YEAR" },
+        { "short_name": "ADAE", "course_name": "ADVANCE DIPLOMA IN AYURVEDIC EDUCATION", "min_qualification": "10TH", "duration": "2 YEAR" },
+        { "short_name": "ADID", "course_name": "ADVANCE DIPLOMA IN INTERIOR DESIGNING", "min_qualification": "10TH", "duration": "1 YEAR" },
+        { "short_name": "DLIS", "course_name": "DIPLOMA IN LIBRARY & INFORMATION SCIENCE", "min_qualification": "10TH", "duration": "1 YEAR" },
+        { "short_name": "ADITD", "course_name": "ADVANCE DIPLOMA IN TEXTILE DESIGNING", "min_qualification": "10TH", "duration": "1 YEAR" },
+        { "short_name": "DHFOO", "course_name": "DIPLOMA IN HOTEL FRONT OFFICE OPERATIONS", "min_qualification": "10TH", "duration": "6 MONTH" },
+        { "short_name": "DSFM", "course_name": "DIPLOMA IN SOIL AND FERTILIZER MANAGEMENT", "min_qualification": "10TH", "duration": "1 YEAR" },
+        { "short_name": "ADMR", "course_name": "ADVANCE DIPLOMA IN MOBILE REPAIRING", "min_qualification": "10TH", "duration": "1 YEAR" },
+        { "short_name": "ADIB", "course_name": "ADVANCE DIPLOMA IN BEAUTICIAN", "min_qualification": "10TH", "duration": "1 YEAR" },
+        { "short_name": "CIB", "course_name": "CERTIFICATE IN BEAUTICIAN", "min_qualification": "10TH", "duration": "6 MONTH" },
+        { "short_name": "DBA", "course_name": "DIPLOMA IN BUSINESS ADMINISTRATION", "min_qualification": "10TH", "duration": "1 YEAR" },
+        { "short_name": "DCT", "course_name": "DIPLOMA IN CUTTING & TAILORING", "min_qualification": "10TH", "duration": "1 YEAR" },
+        { "short_name": "CDM", "course_name": "CERTIFICATE IN DANCE AND MUSIC", "min_qualification": "10TH", "duration": "6 MONTH" },
+        { "short_name": "DHM", "course_name": "DIPLOMA IN HOTEL MANAGEMENT", "min_qualification": "10TH", "duration": "1 YEAR" },
+        { "short_name": "ADFTM", "course_name": "ADVANCE DIPLOMA INFORMATION TECHNOLOGY & SYSTEM MANAGEMENT", "min_qualification": "10TH", "duration": "1 YEAR" },
+        { "short_name": "ADHTM", "course_name": "ADVANCE DIPLOMA IN HOTEL AND TOURISM MANAGEMENT", "min_qualification": "10TH", "duration": "2 YEAR" },
+        { "short_name": "DPFV", "course_name": "DIPLOMA IN PRESERVATION OF FRUIT AND VEGETABLES", "min_qualification": "10TH", "duration": "1 YEAR" },
+        { "short_name": "DLM", "course_name": "DIPLOMA IN LIBRARY MANAGEMENT", "min_qualification": "12TH", "duration": "1 YEAR" },
+        { "short_name": "DID", "course_name": "DIPLOMA IN INTERIOR DESIGNING", "min_qualification": "12TH", "duration": "6 MONTH" },
+        { "short_name": "DFD", "course_name": "DIPLOMA IN FASHION DESIGNING", "min_qualification": "10TH", "duration": "6 MONTH" }
+      ]
+    }
+  ]

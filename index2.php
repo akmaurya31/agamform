@@ -14,6 +14,7 @@ width:246px;}
 </style>
 
 	
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 		
 <link href="eformfol/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
   <link rel="stylesheet" href="eformfol/style.css">
@@ -84,15 +85,32 @@ padding : 50px 0;
 </td>
 
   </tr>
-    <tr>
-      <td align="center"><h3><strong>Examination Application Form:&nbsp;<span id="Lblhead">()</span></strong></h3></td>
+    <tr>  
+      <td align="center"><h3><strong>Admission Com. Examination Application Form:&nbsp;<span id="Lblhead"></span></strong></h3></td>
     </tr>
     <tr>
       <td align="right"><span id="lblmandatory0"><span class="style8">*</span>&nbsp;अनिवार्य फिल्डस (Mandatory fields)</span></td>
     </tr>
     <tr>
-      <td align="center"><div id="UpdatePanel3"></div></td>
+      <td align="center"><div id="UpdatePanel3"></div>
+    
+      Course Category&nbsp;<span class="style8">*</span> : 
+ 
+<select id="category" name="course_category" required=""></select>
+Courses&nbsp;<span class="style8">*</span> :
+<select id="course_name" name="course_name" required="" ></select>
+Duration&nbsp;<span class="style8">*</span> :
+<input type="text" id="duration" name="course_duration" required="" readonly />
+
+
+    </td>
+
+<!-- jQuery include -->
+
+
+      
     </tr>
+    <tr><td>---</td></tr>
     <tr>
       <td align="center" valign="top"><table border="0" cellpadding="3" cellspacing="1">
         <tbody>
@@ -660,9 +678,46 @@ function FileValid(){
   });
 }
 
+ 
+$(document).ready(function() {
+    let courseData = [];
 
+    // JSON Load
+    $.getJSON('course.json', function(data) {
+        courseData = data;
 
+        // Fill Category dropdown
+        $('#category').append(`<option value="">Select Category</option>`);
+        $.each(data, function(index, item) {
+            $('#category').append(`<option value="${item.category}">${item.category}</option>`);
+        });
+    });
 
+    // On Category Change
+    $('#category').change(function() {
+        const selectedCategory = $(this).val();
+        $('#course_name').empty();
+        $('#duration').val('');
+
+        if (selectedCategory) {
+            const selectedData = courseData.find(cat => cat.category === selectedCategory);
+
+            if (selectedData) {
+                $('#course_name').append(`<option value="">Select Course</option>`);
+                $.each(selectedData.courses, function(index, course) {
+                    $('#course_name').append(`<option value="${course.short_name}" data-duration="${course.duration}">${course.course_name}</option>`);
+                });
+            }
+        }
+    });
+
+    // On Course Change
+    $('#course_name').change(function() {
+        const selectedDuration = $(this).find('option:selected').data('duration') || '';
+        $('#duration').val(selectedDuration);
+    });
+
+});
 </script>
 
 </body></html>

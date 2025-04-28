@@ -14,6 +14,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Collect form data
     
     $cid = $_POST['cid'];
+    $course_category = $_POST['course_category'];
+    $course_name = $_POST['course_name'];
+    $course_duration = $_POST['course_duration'];
+
     $cname = $_POST['cname'];
     $user_name = $_POST['user_name'];
     $feesd = $_POST['feesd'];
@@ -49,20 +53,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $txtaadhar = $_POST['txtaadhar'];
 
     
-
     // Insert query
      $query = "INSERT INTO applicants (
         cid, cname, user_name, feesd, date, time, fno, RdoAlreadyAppeared4Exam, 
         ddlSalutaionName, txtAppName, txtFatherName, txtMotherName, RdoGender, 
         dob, Category, occupation, txtCorMobileCode, txtCorMobileNo, txtEmailId, 
         TxtAddressLine1, TxtAddressLine2, TxtCity, state, city, txtPinCode, educode, 
-        TxtYearOfPassing, DdlAccState, DdlAccCentre, DdlExamCycle, txtaadhar
+        TxtYearOfPassing, DdlAccState, DdlAccCentre, DdlExamCycle, txtaadhar,course_category,course_name,course_duration
     ) VALUES (
         '$nextCid', '$cname', '$user_name', '$feesd', '$date', '$time', '$fno', '$RdoAlreadyAppeared4Exam',
         '$ddlSalutaionName', '$txtAppName', '$txtFatherName', '$txtMotherName', '$RdoGender',
         '$dob', '$Category', '$occupation', '$txtCorMobileCode', '$txtCorMobileNo', '$txtEmailId',
         '$TxtAddressLine1', '$TxtAddressLine2', '$TxtCity', '$state', '$city', '$txtPinCode', '$educode',
-        '$TxtYearOfPassing', '$DdlAccState', '$DdlAccCentre', '$DdlExamCycle', '$txtaadhar'
+        '$TxtYearOfPassing', '$DdlAccState', '$DdlAccCentre', '$DdlExamCycle', '$txtaadhar','$course_category','$course_name','$course_duration'
     )";
 
     // Execute the query
