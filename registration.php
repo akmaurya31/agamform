@@ -441,7 +441,7 @@ Duration&nbsp;<span class="style8">*</span> :
                                 <span id="Label12" class="lblNormal">Examination Location 1 / परीक्षा केंद्र 1<font color="RED">*</font></span>                            </td>
 		<td align="left" valign="top">
                                 <div id="UpdatePanel4">
-                                                                  <select name="DdlExamCentre1" id="DdlExamCentre1" style="width:368px;" required="">
+            <select name="DdlExamCentre1" id="DdlExamCentre1" style="width:368px;" required="">
                                   
                                  
             
@@ -584,8 +584,9 @@ function setStatesAcc() {
  cntrySel = document.getElementById('DdlAccState');
  stateList = states[cntrySel.value];
  changeSelect('DdlAccCentre', stateList, stateList);
+ var selectedState = $('#DdlAccState').val();
 //  setCitiesAcc();
- findCenters('DdlExamCentre1')
+ findCenters('DdlExamCentre1',selectedState)
 }
 
 
@@ -642,7 +643,30 @@ addLoadEvent(function() {
 });
 
 
-function findCenters(fieldID) {
+function findCenters(fieldID, selectedState) {
+  fetch('get_centers.php', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/x-www-form-urlencoded',
+    },
+    body: `state=${encodeURIComponent(selectedState)}`,
+  })
+    .then(response => response.json())
+    .then(data => {
+      const selectField = document.getElementById(fieldID);
+      selectField.options.length = 0; // Clear existing options
+      data.forEach(center => {
+        let ctext= `${center.center_name} (${center.center_code}) ${center.district}`;
+        let cvalue=`${center.id}`;
+        const option = new Option(ctext, cvalue);
+        selectField.add(option);
+      });
+    })
+    .catch(error => console.error('Error loading centers:', error));
+}
+
+
+function findCenters22(fieldID) {
   fetch('centers.json')
     .then(response => response.json())
     .then(data => {
